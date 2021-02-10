@@ -94,7 +94,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   module.exports.output = {
     path: path.resolve(__dirname, './dist'),
-      publicPath: './',
+      publicPath: 'https://rawcdn.githack.com/Karpulka/weather-widget/11c97795b094cb31e69f50b135a87205b2aed009/dist/',
       filename: 'webpack-widget.js'
   }
   // http://vue-loader.vuejs.org/en/workflow/production.html

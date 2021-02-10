@@ -1,0 +1,42 @@
+.weather {
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .city {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .info-row {
+    margin: 5px 0;
+
+    .col {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .icon-pressure {
+    height: 12px;
+    width: auto;
+  }
+
+  .icon-wind-direction {
+    height: 8px;
+  }
+
+  .icon {
+    margin-right: 2px;
+  }
+}

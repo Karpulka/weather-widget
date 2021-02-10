@@ -1,0 +1,48 @@
+.weather-settings {
+  &.opened {
+    margin: 10px 0;
+    padding: 5px 0;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .search-results {
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 3px #ccc;
+    padding: 4px 6px;
+  }
+}
+
+.btn-settings, .btn-close {
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  top: 5px;
+  right: 5px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.btn-close {
+  font-size: 24px;
+}
+
+.btn-search {
+  border: 0;
+  box-shadow: none;
+  background: url('~assets/search.png') no-repeat center;
+  background-size: contain;
+  height: 24px;
+  width: 32px;
+  position: relative;
+  top: 6px;
+}
